@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vasavi Chinnala | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Vasavi Chinnala</h1>
+    <p>Aspiring Web Developer | AI & ML Enthusiast | Content writing and Poetry</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src=level2/images/me.jpeg" alt="Vasavi's Photo" />
+    <p>Hi! I’m Vasavi, currently pursuing a B.Sc in Computer Science. I'm passionate about Full Stack Development, AI/ML, and creative content writing. I love turning ideas into real digital solutions!</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Java & Python</li>
+      <li>Data Visualization</li>
+      <li>AI/ML Basics</li>
+      <li>Creative Writing & Poetry</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>🏥 Hospital Management System with Chatbot</h3>
+      <p>A full-featured hospital portal with chatbot support for easy patient-doctor interaction.</p>
+    </div>
+    <div class="project">
+      <h3>🌐 CodSoft Internship - Task 1: Landing Page</h3>
+      <p>A responsive landing page built using HTML and CSS, showcasing clean design and layout basics.</p>
+    </div>
+    <div class="project">
+      <h3>🏏 ChampionCampus</h3>
+      <p>A dynamic platform to manage inter-college cricket tournaments.</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="Vresume.pdf" download class="btn">📄 Download My Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:vasavichinnala18@email.com">vasavichinnala18@email.com</a></p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/vasavi-chinnala18/" target="_blank">linkedin.com/in/vasavi-chinnala18</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vasavi Chinnala. All rights reserved.</p>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+  <!-- JavaScript -->
+  <script>
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    window.onscroll = function () {
+      scrollToTopBtn.style.display = (document.documentElement.scrollTop > 200) ? "block" : "none";
+    };
+    scrollToTopBtn.onclick = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+  </script>
+
+</body>
+</html>
